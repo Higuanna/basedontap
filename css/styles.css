@@ -108,6 +108,11 @@
   src: url('../assets/fonts/Blinker-Regular.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Nickainley';
+  src: url('../assets/fonts/Nickainley.ttf') format('truetype');
+}
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
@@ -168,6 +173,11 @@ h3, .h3 {
 h4, .h4 {
   font-size: calc(1.275rem + 0.3vw);
 }
+
+.logo-name {
+  font-family: 'Nickainley';
+}
+
 @media (min-width: 1200px) {
   h4, .h4 {
     font-size: 1.5rem;
