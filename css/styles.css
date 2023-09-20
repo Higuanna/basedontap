@@ -175,7 +175,7 @@ h4, .h4 {
 }
 
 .logo-name {
-  font-family: 'Nickainley';
+  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 @media (min-width: 1200px) {
@@ -11162,12 +11162,12 @@ body {
   }
 }
 .projects-section .project-text {
-  padding: 3rem;
-  font-size: 90%;
+  padding: 2rem;
+  font-size: 80%;
 }
 @media (min-width: 992px) {
   .projects-section .project-text {
-    padding: 5rem;
+    padding: 1rem;
   }
 }
 
@@ -11230,4 +11230,22 @@ body {
 
 .footer {
   padding: 5rem 0;
+}
+.boost{
+  height: 80px;
+  width: 80px;
+}
+.boost1{
+  height: 100px;
+  width: 100px;
+}
+.modal-content {
+  background-color: black;
+  color: azure;
+}
+.btn-close {
+  background-color: #69676f;
+}
+#discord-link{
+  color: red;
 }
